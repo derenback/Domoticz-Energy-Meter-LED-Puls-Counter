@@ -29,6 +29,10 @@ sudo systemctl restart domoticz
 
 ## Images
 
+### Sensor in Domoticz
+
+![Sensor](Images/Sensor.png)
+
 ### LED Detector connected to meter with hot glue
 
 ![LEDDetector](Images/LEDDetector.jpg)
