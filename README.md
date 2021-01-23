@@ -27,3 +27,20 @@ sudo systemctl restart domoticz
 ## Version history
     0.1.0 Initial version
 
+## Images
+
+### LED Detector connected to meter with hot glue
+
+![LEDDetector](Images/LEDDetector.jpg)
+
+STL file [here](STL/LEDDetectorHead.stl)
+
+### LED Connected to the Raspberry pi
+
+![LEDDetector](Images/PIConnection.jpg)
+
+
+
+
+
+
