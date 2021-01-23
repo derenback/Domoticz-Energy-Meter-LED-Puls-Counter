@@ -3,9 +3,10 @@
 Energy Meter LED Puls Counter via GPIO
 Author: Derenback
 Requirements:
-    1. SMA Sunny Tripower or Sunny Boy with Modbus TCP enabled.
-    2. python 3.x
-    3. pip3 install -U pymodbus pymodbusTCP
+    1. LED detector
+    2. Domoticz running on a Raspberry pi
+    3. python 3.x
+    4. sudo apt install python3-rpi.gpio
 
 """
 """
