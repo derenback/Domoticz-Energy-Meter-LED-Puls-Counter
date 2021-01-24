@@ -46,6 +46,8 @@ STL file [here](STL/LEDDetectorHead.stl)
 
 ![LEDDetector](Images/PIConnection2.png)
 
+![LEDDetector](Images/PIConnection3.png)
+
 
 
 
