@@ -25,7 +25,8 @@ sudo systemctl restart domoticz
 - Meter, Network Energy Service type 83334-3IKBAA (Bi-directional) and 83330-3IHA (Single direction) from Eon
 
 ## Version history
-    0.1.0 Initial version
+    0.0.2 Restore pulse count on restart
+    0.0.1 Initial version
 
 ## Images
 
