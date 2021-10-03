@@ -10,7 +10,7 @@ Requirements:
 
 """
 """
-<plugin key="EnergyLEDCount" name="Energy Meter LED Puls Counter via GPIO" version="0.0.3" author="Derenback">
+<plugin key="EnergyLEDCount" name="Energy Meter LED Puls Counter via GPIO" version="0.0.4" author="Derenback">
     <params>
         <param field="Mode1" label="GPIO pin" width="40px" required="true" default="8" />
         <param field="Mode2" label="Report interval sec." width="40px" required="true" default="10" />
@@ -70,7 +70,7 @@ def onStart():
         Domoticz.Device(Name="Usage", Unit=1, TypeName="kWh", Used=1).Create()
     else:
         temp_str = Devices[1].sValue.split(";")
-        pulse_count_total = int(temp_str[1])
+        pulse_count_total = int(float(temp_str[1]))
         if (Parameters["Mode3"] == "Debug"):
             Domoticz.Log("EnergyLEDCount restored pulse count on restart to: " + str(pulse_count_total)) 
 
