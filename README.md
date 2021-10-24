@@ -21,7 +21,7 @@ sudo systemctl restart domoticz
 ```
 
 ## Tested on
-- Domoticz version: 2020.2 (build 11997)
+- Domoticz version: 2020.2 (build 11997) (Raspberry pi and Dockerversion running on Ubuntu)
 - Meter, Network Energy Service type 83334-3IKBAA (Bi-directional) and 83330-3IHA (Single direction) from Eon
 
 ## Version history
