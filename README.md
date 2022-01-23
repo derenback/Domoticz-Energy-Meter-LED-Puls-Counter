@@ -11,7 +11,10 @@ git clone https://github.com/derenback/Domoticz-Energy-Meter-LED-Puls-Counter.gi
 sudo apt install python3-rpi.gpio
 sudo systemctl restart domoticz
 ```
-- Make sure to have the setting "Accept new Hardware Devices" turned on for new devices to be added when adding the Hardware in domoticz.
+- Make sure to have the setting "Accept new Hardware Devices" turned on. <Br>
+![Add new](Images/AcceptNewHardware.png)
+- Now you can add the device via Setup/Hardware. <br>
+![Add device](Images/AddDevice.png)
 
 ## Update
 ```bash
